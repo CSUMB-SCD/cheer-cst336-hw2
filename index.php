@@ -26,12 +26,13 @@ include 'inc/func.php';
     </head>  
         <body>
             <header>
-                <h1></h1>
+                <h1>DEATH GAME</h1>
             </header>
-            <? php
-            
-            
-               play();
+            <?php
+                echo "Start Game! <br>";
+                run_game();
+                   
+    
             ?>
         </body>
     <footer>
