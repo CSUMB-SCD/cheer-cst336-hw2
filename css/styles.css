@@ -1,6 +1,31 @@
 .scoreboard_item{
-    background-color: red;
+    background-color: #5d697c;
     font-size: large;
     border-bottom-color: white;
     border-bottom-width: 1px;
+}
+
+.winner{
+    background-color: gold;
+    font-size:16pt;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.loser{
+    background-color: #2f8435;
+    font-size: 14pt;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.weapon{
+    font-size: 16pt;
+    font-weight: bold;
+    font-family: monospace;
+    font-style: italic;
+}
+
+img{
+    height: 30px;
 }

@@ -76,12 +76,12 @@
         echo "<div class='scoreboard_item'> <span class= 'winner'>" . $winner . "</span> "
           . $method_text 
           . " <span class= 'loser'>" . $killed . "</span> " 
-          . " with their <span class='weapon'>" . $weapon ."</span></div>";
-
+          . " with their <span class='weapon'>" . $weapon ." <img src='img/".$weapon.".png'></span></div>";
+          
         $i++;
 
     } while (count($players) > 1 && $i < 50);
-    echo $players[0] ." is the last one standing!";
+    echo "<div class='winner'>".$players[0] ." is the last one standing! </div>";
   }
     
 
