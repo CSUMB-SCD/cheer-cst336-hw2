@@ -42,6 +42,7 @@
     do{
       $i = 0;
       
+      shuffle($players);
     
       $player_pos = rand(0, count($players)-1); //killed
         do{
